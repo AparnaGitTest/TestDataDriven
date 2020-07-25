@@ -33,6 +33,7 @@ public class AddCustomerTest extends TestBase {
 		Alert alert=wait.until(ExpectedConditions.alertIsPresent());
 		Assert.assertTrue(alert.getText().contains(data.get("Message")));
 		alert.accept();
+		//adding a commnet to update the file
 		
 	}
 	
